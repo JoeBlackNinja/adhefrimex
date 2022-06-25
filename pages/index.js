@@ -17,6 +17,7 @@ export default function Home() {
             src={Panfleto}
             width={500}
             height={1000}
+            alt='panfleto'
           />
         </div>
       </Layout>

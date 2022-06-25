@@ -6,8 +6,8 @@ import Pedaguro from "../public/pegaduro.jpg";
 const Card = (props) => {
   return (
     <div className={styles.divMain}>
-      <div class={styles.card}>
-        <Image src={Pedaguro} width={200} height={240} />
+      <div className={styles.card}>
+        <Image src={Pedaguro} width={200} height={240} alt='' />
         <div className={styles.container}>
           <h4>
             <b>{props.titulo}</b>

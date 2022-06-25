@@ -10,6 +10,7 @@ const productos = () => {
         <div className={styles.divBody}>
           {database().map(p => (
             <Card
+              key={p}
               titulo={p}
             />
           ))}

@@ -17,14 +17,14 @@ const productos = () => {
             <div className={styles.firstCol}>
               <Link href={"https://web.whatsapp.com/"}>
                 <a>
-                  <Image src={Watssapp} width={55} height={60} />
+                  <Image src={Watssapp} width={55} height={60} alt='imagen watsapp' />
                 </a>
               </Link>
               <h4>3323234567</h4>            
             </div>
             <div className={styles.firstCol}>
               
-                  <Image src={Phone} width={55} height={60} />
+                  <Image src={Phone} width={55} height={60} alt='imagen phone' />
                
               <h4>3321307184</h4>
               <h4>3322351079</h4>  
@@ -33,7 +33,7 @@ const productos = () => {
             <div className={styles.secondCol}>
               <Link href={"https://gmail.com/"}>
                 <a>
-                  <Image src={Gmail} width={50} height={50} />
+                  <Image src={Gmail} width={50} height={50} alt='imagen gmail' />
                 </a>
               </Link>            
               <h4>ventas.adhefirmex@gmail.com</h4>
