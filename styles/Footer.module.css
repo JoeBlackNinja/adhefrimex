@@ -1,0 +1,35 @@
+.divMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media(max-width:768px){
+    .divMain{
+      flex-direction: column;
+    }
+  }
+
+  .divSociales {
+    font-size: 25px;
+    color: #261709;
+    font-weight: 800;
+  }
+  @media(max-width:768px){
+    .divSociales{
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+  }
+
+  .contactanos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .contactanos h3 {
+    margin: 1rem;
+  }
